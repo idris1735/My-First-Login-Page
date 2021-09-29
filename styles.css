@@ -1,0 +1,218 @@
+body{
+    background-image: linear-gradient(90deg, #43C6AC, #191654);
+}
+
+#loginHead{
+    color: #43C6AC;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid #1916543d;
+    border-radius: 18px;
+    margin-left: 140px;
+    margin-top: 70px;
+    background-color: #191654;
+    box-shadow: 9px 9px 9px 9px rgba(128, 128, 128, 0.363) ;
+
+}
+.loginput{
+height:25px;
+width: 120px;
+/* margin-left: 100px; */
+margin-left: auto;
+margin-right: auto;
+margin: 10px;
+border: 1px solid aqua;
+border-radius: 10px;
+background-color: #43c6ac70;
+font-family: 'Times New Roman', Times, serif;
+/* margin-bottom: 10px;
+margin-top: 30px; */
+
+}
+.inputs{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.loginput:hover{
+    width: 200px;
+    background-color: #43C6AC;
+    color: white;
+    transition: all 0.2s ease-out 0.5s;
+    border: 1px solid #2e2a7a ;
+}
+input::placeholder{
+    text-align: center;
+    align-items: center;
+    color: silver;
+    font-size: 15px;
+}
+
+#btnbtn{
+    height:25px;
+    width: 50px;
+    /* margin-left: 100px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border: 1px solid aqua;
+    border-radius: 2px;
+    background-color: #191654;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+#btnbtn:hover{
+    background-color: white;
+    color: #191654;
+    cursor: pointer;
+    height: 30px;
+    width: 70px;
+    border: 1px solid #191654;
+}
+
+.container-2{
+height: 550px;
+width: 600px;
+background-color: #43C6AC;
+float: right;
+margin: -450px;
+margin-right: 100px;
+border-radius: 10px;
+}
+#registerHead{
+    text-align: center;
+    color: #191654;
+    padding: 5px;
+    text-decoration: underline;
+}
+.input-containers{
+    height: 100%;
+    width: 100%;
+    margin-left: 40px;
+}
+ .passes{
+    padding: 5px;
+    border: 1px solid #191654;
+    background: #1916546e;
+    height:25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.regnames{
+    padding: 5px;
+    border: 1px solid #191654;
+    background: #1916546e;
+    height:25px;
+    width: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mailbox {
+    padding: 5px;
+    border: 1px solid #191654;
+    background: #1916546e;
+    height:25px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#number{
+    padding: 5px;
+    border: 1px solid #191654;
+    background: #1916546e;
+    height:25px;
+    width: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#Age{
+    padding: 5px;
+    border: 1px solid #191654;
+    background: #1916546e;
+    height:25px;
+    width: 233px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    color: silver;
+    font-size: 15px;
+}
+.genders{
+    margin-right: auto;
+    margin-left: auto;
+}
+.gender{ 
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    color: #191654f8;
+    font-size: 15px;
+}
+input.gender{
+    height: 20px;
+    width: 20px;
+}
+.regbutton{
+    height:35px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 200px;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    background-color: #191654e1;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+.regbutton:hover{
+    height: 38px;
+    width: 150px;
+    background-color: white;
+    border: 1px solid #191654;
+    color: #2e2a7a;
+    transition: all 0.2s ease-out 0.2s;
+    cursor: pointer;
+}
+
+.options{
+    font-size: 15px;
+    color: #191654f3;
+    font-weight: bold;
+    margin-left: 150px;
+}
+a{ 
+    color: white;
+}
+.regoption{
+    font-size: 15px;
+    color: rgba(0, 255, 255, 0.904);
+    font-weight: bold;   
+}
